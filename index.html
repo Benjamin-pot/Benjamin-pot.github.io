@@ -23,14 +23,15 @@
       <form>
         <h2 id="p1"></h2>
         <!-- 輸入值 -->
-        <input type="text" id="guess" class="guess" >
-        <br>
-        <!--送出答案-->
-        <input type="button" value="Guess!" onclick="guess_rule()" >
-        <!--重置-->
-        <input type="reset" value="reset" onclick="set()">
-        <!--公布答案-->
-        <input type="button" value="answer" onclick="print_ans()">
+        <input type="text" id="guess" class="guess">
+        <div class="main_button">
+          <!--送出答案-->
+          <input type="button" value="Guess!" onclick="guess_rule()" >
+          <!--重置-->
+          <input type="reset" value="reset" onclick="set()">
+          <!--公布答案-->
+          <input type="button" value="answer" onclick="print_ans()">
+        </div>
       </form>
 
       <!--猜題紀錄-->
@@ -39,6 +40,10 @@
 
       <!--答案位置-->
       <div id="ans" class="ans" ></div>
+      
+
+
+
 
     </div>
 

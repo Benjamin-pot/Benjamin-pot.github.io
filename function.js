@@ -32,13 +32,12 @@ function f(){
     var f_result = document.createTextNode(guess.value+" "+"Bingo!");
     nodeLi.appendChild(f_result);
     nodeLi.style="color:green";
+    guess.style['border-bottom-color']="green";
   }else{
     var f_result = document.createTextNode(guess.value+" "+A+"A"+B+"B");
     nodeLi.appendChild(f_result);
     nodeLi.style="color:red";
-
-
-
+    guess.style['border-bottom-color']="red";
   }
 
   document.getElementById("result").appendChild(nodeLi);
