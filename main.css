@@ -7,6 +7,17 @@ h1{font-size:250%;}
 .main_button{
   margin:10px;
 }
+.main_button >input{
+  width: 55px;
+  height: 20px;
+  background-color:#deaf12;
+  border:none;
+}
+.main_button >input:active{
+  width: 52px;
+  height: 18px;
+  transition: width 0.05s,height 0.05s;
+}
 .guess{
   font-size:75px; 
   text-align: center;
@@ -28,18 +39,14 @@ h1{font-size:250%;}
 
 
 .nav a{
-  padding: 6px;
+
+  background:transparent;
+  text-align: center;
+  padding: 4px;
   display:block;
-  font-size:25px;
+  font-size:30px;
   color: inherit;
   text-decoration: none;
-}
-.nav a:hover{
-  border-radius:10%;
-  color: white;
-  background-color:#dbb843;
-  transition:color 0.3s;
-
 }
 .nav > ul{
   text-align: center;
@@ -47,10 +54,26 @@ h1{font-size:250%;}
   list-style: none;
 }
 
-.nav > ul >li{
-  border-radius:10%;
+.nav > ul > li{
   width: 80px;
   height: 42px;
-  background-color:#deaf12; 
+  background-color:#deaf12;
   display:inline-block;
+}
+.nav li:hover{
+  border-radius:10%;
+  background: linear-gradient(50deg,#deaf12, #f0d26d);
+}
+.nav li:active{
+  width: 75px;
+  height: 38px;
+  transition: width 0.05s,height 0.05s;
+}
+.nav li:hover a{
+  color: white;
+  transition:color 0.3s;
+}
+.nav li:active a{
+  font-size:28px;
+  transition: width 0.05s,height 0.05s;
 }
