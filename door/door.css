@@ -1,0 +1,31 @@
+
+.enDoor{
+  position:relative;
+  margin-top: 300px
+}
+.frame,.door{
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  margin:auto;
+}
+.door{
+  padding-top:31px;
+  z-index: -1;
+}
+.frame{
+  pointer-events:none;
+}
+.door:hover{
+  transform-origin:left;
+  transform:skewy(-20deg);
+  transition: transform 0.4s;
+  transition-timing-function:cubic-bezier(.26,1.87,1,1.08);
+}
+.door:active{
+  transform:skewy(-90deg);
+  opacity:0;
+  transition: transform 0.2s,opacity 0.2s;
+}

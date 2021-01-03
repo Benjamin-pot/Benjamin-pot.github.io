@@ -1,6 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700&display=swap');
 *{
   padding: 0;
   margin: 0;
+/*  font-family: 'Noto Sans TC',sans-serif;*/
+}
+
+h3{
+  font-size: 2em;
+}
+p{
+
+  font-size: 15px; 
+  font-weight:bold;
 }
 body{
   background:linear-gradient(#e0cf4c,#e28c03);
@@ -79,10 +90,9 @@ body{
   position: sticky;
   top: 80px;
   background:#bababa;
-  
-  width: 700px;
+  width: 450px;
   height: 800px;
-  margin: 10px 0 0 5px;
+  margin: 10px 0 0 50px;
   box-shadow: 8px 8px 10px #474747;
   border-radius: 10px;
 }
@@ -92,10 +102,15 @@ body{
 /*box*/
 
 #all_box{
+  background:#cecece;
+  box-shadow: 0 5px 5px 5px #cecece;
+  border-radius: 0 0 10px 10px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 20px;
+  margin: -15px 100px 20px 20px;
+  z-index: -1;
+  padding-top: 25px; 
 }
 
 #all_box a{
@@ -107,8 +122,8 @@ body{
   background:linear-gradient(-30deg,#444444,#c4c4c4);
   text-align: center;
   margin: 0 10px 35px 10px;
-  width: 400px;
-  height: 600px;
+  width: 300px;
+  height: 450px;
   box-shadow: 8px 8px 10px #474747;
 }
 
