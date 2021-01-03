@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>1A2B</title>
+    <link rel="stylesheet" href="main.css">
+
+  </head>
+
+  <body>
+
+    <h1>1A2B</h1>
+
+    <nav class="nav">
+      <ul>
+        <li ><a href="#" onclick="display('block')">on</a></li>
+        <li><a href="#" onclick="display('none')">off</a></li>
+      </ul>
+    </nav>
+
+    <div class="main" id="main">
+      <form>
+        <h2 id="p1"></h2>
+        <!-- 輸入值 -->
+        <input type="text" id="guess" class="guess" autocomplete="off">
+        <div class="main_button">
+          <!--送出答案-->
+          <input type="button" value="Guess!" onclick="guess_rule()" >
+          <!--重置-->
+          <input type="reset" value="reset" onclick="set()">
+          <!--公布答案-->
+          <input type="button" value="answer" onclick="print_ans()">
+        </div>
+      </form>
+
+      <!--猜題紀錄-->
+      <ol id="result">
+      </ol>
+
+      <!--答案位置-->
+      <div id="ans" class="ans" ></div>
+      
+      <a href="../../index.html" class="bt">
+      Back
+      </a>
+      
+
+
+
+
+    </div>
+
+
+    <script src="function.js"></script>
+    <script src="main.js"></script>
+
+
+
+  </body>
+
+</html>

@@ -3,55 +3,138 @@
 
   <head>
     <meta charset="UTF-8">
-    <title>1A2B</title>
+    <title>Untitled Document</title>
     <link rel="stylesheet" href="main.css">
-
   </head>
 
   <body>
+    <div id="banner">
+      <video autoplay loop muted src="banner_vid.mp4" class="vid"></video>
+      <div class="banner-ground">
+      </div>
+    </div>
 
-    <h1>1A2B</h1>
-
-    <nav class="nav">
+    <nav id="nav">
       <ul>
-        <li ><a href="#" onclick="display('block')">on</a></li>
-        <li><a href="#" onclick="display('none')">off</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Game</a></li>
+        <li><a href="#">Else</a></li>
+
       </ul>
     </nav>
 
-    <div class="main" id="main">
-      <form>
-        <h2 id="p1"></h2>
-        <!-- 輸入值 -->
-        <input type="text" id="guess" class="guess" autocomplete="off">
-        <div class="main_button">
-          <!--送出答案-->
-          <input type="button" value="Guess!" onclick="guess_rule()" >
-          <!--重置-->
-          <input type="reset" value="reset" onclick="set()">
-          <!--公布答案-->
-          <input type="button" value="answer" onclick="print_ans()">
+    <div id="main">
+
+      <div id="left">
+        <h3>nothing</h3>
+      </div>
+      <div id="all_box">
+        <div class="box">
+
+          <a href="box/1A2B/index.html">
+            <img src="images/pic06.jpg">
+            <div class="txt">
+              <h3>1A2B</h3>
+              <p>
+                have fun!
+              </p>
+            </div>
+          </a>
+
         </div>
-      </form>
+        <div class="box">
 
-      <!--猜題紀錄-->
-      <ol id="result">
-      </ol>
+          <img src="images/pic01.jpg">
+          <div class="txt">
+            <h3>None</h3> <p>example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_
+            </p>
+          </div>
 
-      <!--答案位置-->
-      <div id="ans" class="ans" ></div>
-      
+        </div>
+        <div class="box">
 
+          <img src="images/pic05.jpg">
+          <div class="txt">
+            <h3>None</h3> <p>example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_
+            </p>
+
+
+          </div>
+
+        </div>        <div class="box">
+
+        <img src="images/pic03.jpg">
+        <div class="txt">
+          <h3>None</h3> <p>example_example
+          _example_example_example_example_example_example_example_example_exam
+          ple_example_example_example_example_example_example_example_example_example_example_example_example_example_exa
+          mple_example_example_example_example_example_example_example_example_examp
+          le_example_example_example_example_example_example_
+
+          </p>
+        </div>
+
+        </div>
+        <div class="box">
+
+          <img src="images/pic06.jpg">
+          <div class="txt">
+            <h3>None</h3> <p>example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_
+            </p>
+          </div>
+
+        </div>
+        <div class="box">
+
+          <img src="images/pic05.jpg">
+          <div class="txt">
+            <h3>None</h3> <p>example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_
+            </p>
+
+
+          </div>
+
+        </div>        <div class="box">
+
+        <img src="images/pic03.jpg">
+        <div class="txt">
+          <h3>None</h3> <p>example_example
+          _example_example_example_example_example_example_example_example_exam
+          ple_example_example_example_example_example_example_example_example_example_example_example_example_example_exa
+          mple_example_example_example_example_example_example_example_example_examp
+          le_example_example_example_example_example_example_
+
+          </p>
+        </div>
+
+        </div>
+        <div class="box">
+
+          <img src="images/pic06.jpg">
+          <div class="txt">
+            <h3>None</h3> <p>example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_
+            </p>
+          </div>
+
+        </div>
+        <div class="box">
+
+          <img src="images/pic05.jpg">
+          <div class="txt">
+            <h3>None</h3> <p>example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_example_
+            </p>
+
+
+          </div>
+
+        </div>
+
+      </div>
 
 
 
     </div>
-
-
-    <script src="function.js"></script>
-    <script src="main.js"></script>
-
-
 
   </body>
 
