@@ -14,7 +14,7 @@ p{
   font-weight:bold;
 }
 body{
-  background:linear-gradient(#e0cf4c,#e28c03);
+  background:linear-gradient(#fae5ab,#e28c03);
 /*  opacity: .95;*/
 }
 
@@ -110,8 +110,8 @@ body{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: -15px 120px 20px 20px;
-  padding-top: 25px; 
+  margin: -15px 130px 20px 30px;
+  padding: 25px 50px 0 50px; 
 }
 
 #all_box a{
@@ -122,8 +122,8 @@ body{
   border-radius: 4%;
   background:linear-gradient(-30deg,#444444,#c4c4c4);
   text-align: center;
-  margin: 0 10px 35px 10px;
-  width: 300px;
+  margin: 35px 20px;
+  width: 280px;
   height: 450px;
   box-shadow: 5px 5px 10px 0 #474747;
 }
