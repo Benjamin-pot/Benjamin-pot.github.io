@@ -47,6 +47,29 @@ body{
 
 }
 
+.head{
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  margin-left:-110px; 
+  z-index:2;
+}
+
+.circle{
+  background:white;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%; 
+  box-shadow: 0 0 10px 8px gray;
+}
+
+.head .text{
+  font-size: 40px;
+  font-weight: 900;
+  color: white;
+  text-shadow: 2px 2px 10px gray;
+}
+
 
 
 
